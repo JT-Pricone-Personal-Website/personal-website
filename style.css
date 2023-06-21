@@ -44,26 +44,38 @@ a.navlink, a:hover{
   transition: .5s;
 }
 
-/* header{
-  padding: 5px;
-  background-color: blue;
-} */
-
-/* .navitems, .navlink{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 30px;
-  color: chartreuse;
-  text-decoration: none;
+#aboutmeh1{
+  text-decoration: underline;
+  text-align: center;
+  font-style: oblique;
 }
 
-nav .navul{
-  float: right;
-  margin-right: 20px;
+#aboutbody{
+  background-color: aqua;
+  align-items: center;
 }
 
-nav .navul .navitems{
-  display: inline-block;
-  margin: 5px;
-  margin-bottom: 200px;
-} */
+img{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+#fishingpar #huntingpar #weldingpar{
+  text-align: center;
+}
+
+.aboutsection{
+  border-top: solid;
+  border-top-color: black;
+  display: flex;
+}
+
+p{
+  display: block;
+}
+
+
