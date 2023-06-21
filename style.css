@@ -44,6 +44,46 @@ a.navlink, a:hover{
   transition: .5s;
 }
 
+
+#monkeypic{
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 10px groove gray;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#topsmallerh1{
+  text-align: center;
+  margin-top: 25px;
+  color: white;
+  font-size: 35px;
+}
+
+#largerh1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 75px;
+  color: white;
+}
+
+#lowersmallerh1{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+#homebody{
+  background-image: url(triangles.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  
 #aboutmeh1{
   text-decoration: underline;
   text-align: center;
@@ -100,9 +140,9 @@ p{
 
 
 
-
 footer{
   height: 80px;
   width: 100%;
   background: black;
-}
+  }
+
