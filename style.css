@@ -44,6 +44,7 @@ a.navlink, a:hover{
   transition: .5s;
 }
 
+
 #monkeypic{
   height: 300px;
   width: 300px;
@@ -81,4 +82,67 @@ a.navlink, a:hover{
   background-image: url(triangles.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+
+  
+#aboutmeh1{
+  text-decoration: underline;
+  text-align: center;
+  font-style: oblique;
 }
+
+#aboutbody{
+  align-items: center;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+#fishingpar #huntingpar #weldingpar{
+  text-align: center;
+}
+
+.aboutsection{
+  border-top: solid;
+  border-top-color: black;
+  display: flex;
+}
+
+p{
+  display: block;
+}
+
+
+#portfolioh1{
+  text-decoration: underline;
+  text-align: center;
+  font-style: oblique;
+}
+
+.portsection{
+  border-top: solid 1px;
+  border-top-color: black;
+  display: block;
+}
+
+.porth2{
+  text-align: center;
+}
+
+
+
+
+
+
+
+footer{
+  height: 80px;
+  width: 100%;
+  background: black;
+  }
+
