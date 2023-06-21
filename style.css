@@ -51,7 +51,6 @@ a.navlink, a:hover{
 }
 
 #aboutbody{
-  background-color: aqua;
   align-items: center;
 }
 
@@ -79,3 +78,31 @@ p{
 }
 
 
+#portfolioh1{
+  text-decoration: underline;
+  text-align: center;
+  font-style: oblique;
+}
+
+.portsection{
+  border-top: solid 1px;
+  border-top-color: black;
+  display: block;
+}
+
+.porth2{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+footer{
+  height: 80px;
+  width: 100%;
+  background: black;
+}
