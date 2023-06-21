@@ -39,7 +39,7 @@ nav .navul .navitems .navlink{
   border-radius: 3px;
 }
 
-a.navlink, a:hover{
+a:hover{
   background: #1b9bff;
   transition: .5s;
 }
@@ -51,7 +51,7 @@ a.navlink, a:hover{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 20px;
   border: 10px groove gray;
   border-radius: 50%;
@@ -70,6 +70,7 @@ a.navlink, a:hover{
   text-decoration: underline;
   font-size: 75px;
   color: white;
+  margin-bottom: 25px;
 }
 
 #lowersmallerh1{
@@ -82,6 +83,7 @@ a.navlink, a:hover{
   background-image: url(triangles.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+}
 
   
 #aboutmeh1{
@@ -108,9 +110,10 @@ img{
 }
 
 .aboutsection{
-  border-top: solid;
+  border-top: solid 2px;
   border-top-color: black;
   display: flex;
+  margin-top: 25px;
 }
 
 p{
@@ -136,13 +139,26 @@ p{
 
 
 
+#gitlink{
+  font-size: 40px;
+  margin-left: 585px;
+  margin-bottom: 500px;
+  color: white;
+}
 
+#linkedinlink{
+  font-size: 40px;
+  color: white;
+}
 
 
 
 footer{
-  height: 80px;
+  height: 75px;
   width: 100%;
   background: black;
-  }
+  margin-top: 150px;
+}
+
+  
 
