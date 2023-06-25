@@ -22,8 +22,8 @@ nav{
 }
 
 nav .navul{
-  float: right;
-  margin-right: 20px;
+   float: right;
+   margin-right: 20px;
 }
 
 nav .navul .navitems{
@@ -40,20 +40,43 @@ nav .navul .navitems .navlink{
 }
 
 a:hover{
-  background: #1b9bff;
-  transition: .5s;
+  animation-name: changecolor !important;
+  animation-duration: 5s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  color: #fff;
+}
+
+@keyframes changecolor{
+  0%{
+    background-color: #0082e6;
+  }
+  25%{
+    background-color: #055D57;
+  }
+  50%{
+    background-color: darkred;
+  }
+  75%{
+    background-color: blueviolet;
+  }
+  100%{
+    background-color: chartreuse;
+  }
 }
 
 
 #monkeypic{
   height: 300px;
   width: 300px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  float: inherit;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  padding: 20px;
-  border: 10px groove gray;
+  padding: 10px;
+  border: 6px groove gray;
   border-radius: 50%;
   background-color: black;
 }
@@ -71,6 +94,7 @@ a:hover{
   font-size: 75px;
   color: white;
   margin-bottom: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif; 
 }
 
 #lowersmallerh1{
@@ -92,32 +116,20 @@ a:hover{
   font-style: oblique;
 }
 
-#aboutbody{
-  align-items: center;
-}
 
 img{
   width: 300px;
   height: 300px;
-  margin-bottom: 50px;
-  padding: 10px;
-  margin-top: 20px;
-  margin-right: 100px;
+  float: left;
+  margin: 5px;
 }
 
-#fishingpar #huntingpar #weldingpar{
-  text-align: center;
-}
 
 .aboutsection{
   border-top: solid 2px;
   border-top-color: black;
-  display: flex;
+  display: inline-block;
   margin-top: 25px;
-}
-
-p{
-  display: block;
 }
 
 
@@ -130,7 +142,8 @@ p{
 .portsection{
   border-top: solid 1px;
   border-top-color: black;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .porth2{
@@ -151,13 +164,27 @@ p{
   color: white;
 }
 
+p:hover{
+  color: 	#055D57;
+}
+
 
 
 footer{
   height: 75px;
   width: 100%;
-  background: black;
+  background: rgb(49, 47, 47);
+  margin-top: 110px;
+}
+
+#homefooter{
   margin-top: 150px;
+}
+
+@media(max-width: 400px){
+  body{
+    color: blueviolet;
+  }
 }
 
   
