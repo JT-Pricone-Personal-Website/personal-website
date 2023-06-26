@@ -39,7 +39,7 @@ nav .navul .navitems .navlink{
   border-radius: 3px;
 }
 
-a:hover{
+.navlink:hover{
   animation-name: changecolor !important;
   animation-duration: 5s; 
   animation-iteration-count: infinite;
@@ -169,6 +169,59 @@ p:hover{
 }
 
 
+#contactbody{
+  background-color: rgb(233, 232, 232);
+}
+
+.contactbox{
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 22%;
+  left: 33%;
+  position: absolute;
+}
+
+#contacth1{
+  text-align: center;
+  margin-top: 15px;
+}
+
+form{
+  margin: 35px;
+}
+
+.inputfield{
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+#txtarea{
+  margin-top: 20px;
+  margin-left: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+#btn{
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 45px;
+  padding: 10px;
+  background-color: rgb(6, 126, 6);
+  font-size: 12px;
+  cursor: pointer;
+}
 
 footer{
   height: 75px;
